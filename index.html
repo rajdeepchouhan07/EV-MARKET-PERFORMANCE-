@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071b17">
+  <meta name="description" content="Explore electric vehicle specifications, pricing, range, battery technology and market signals in an interactive EV market dashboard.">
+  <title>EV MarketScope | Electric Vehicle Market Insights</title>
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/evmarketscope.css" rel="stylesheet">
+  <link href="assets/css/evmarketscope-fixes.css" rel="stylesheet">
+</head>
+<body class="index-page ev-site">
+  <header class="ev-header sticky-top">
+    <div class="container d-flex align-items-center justify-content-between py-3">
+      <a class="brand" href="#home"><span class="brand-icon"><i class="bi bi-lightning-charge-fill"></i></span>EV<span>MarketScope</span></a>
+      <button class="mobile-menu" aria-label="Open navigation" aria-expanded="false"><i class="bi bi-list"></i></button>
+      <nav class="ev-nav" aria-label="Main navigation">
+        <a class="active" href="#home">Home</a><a href="#overview">Overview</a><a href="#dashboard">Dashboard</a><a href="#story">Data story</a><a href="#methodology">Methodology</a>
+        <a class="nav-cta" href="#dashboard">Explore dashboard <i class="bi bi-arrow-up-right"></i></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div><div class="container hero-inner">
+        <div class="hero-copy"><div class="eyebrow"><span></span> ELECTRIC MOBILITY ANALYTICS</div>
+          <h1>Electric vehicle<br>market performance<br><em>&amp; insights.</em></h1>
+          <p>Explore the EV landscape through vehicle specifications, pricing, driving range, battery technology and market distribution. Turn complex vehicle data into clearer comparisons.</p>
+          <div class="hero-actions"><a class="btn-primary" href="#dashboard">Explore dashboard <i class="bi bi-arrow-down-right"></i></a><a class="btn-quiet" href="#overview">Project overview <i class="bi bi-arrow-right"></i></a></div>
+          <div class="hero-note"><i class="bi bi-database-check"></i><span>Analysis based on the supplied EV market dataset</span></div>
+        </div>
+        <div class="hero-visual" aria-label="EV market sales visualization"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="hero-car"><i class="bi bi-car-front-fill"></i></div><div class="hero-chip chip-top"><span class="chip-dot"></span><div><small>MARKET MOMENTUM</small><b>EV data, in focus</b></div><i class="bi bi-graph-up-arrow"></i></div><div class="hero-chip chip-bottom"><span class="chip-icon"><i class="bi bi-battery-charging"></i></span><div><small>BUILT FOR COMPARISON</small><b>Specs · cost · impact</b></div></div><div class="visual-label">FIG. 01 <span>THE ELECTRIC SHIFT</span></div></div>
+      </div>
+      <div class="hero-strip"><div class="container strip-inner"><span>MARKET INTELLIGENCE SNAPSHOT</span><span class="strip-line"></span><span><i class="bi bi-circle-fill"></i> 100,000 vehicle records</span><span><i class="bi bi-circle-fill"></i> 2018–2026 model years</span><span><i class="bi bi-circle-fill"></i> 200 manufacturers</span></div></div>
+    </section>
+
+    <section class="overview section-pad" id="overview"><div class="container">
+      <div class="section-heading"><div><div class="eyebrow eyebrow-dark">THE BIG PICTURE</div><h2>A clearer view of<br><span>the EV landscape.</span></h2></div><p>One dataset, four useful lenses. Move beyond headline numbers to understand how vehicles compare across performance, battery, ownership and market impact.</p></div>
+      <div class="stat-grid"><article class="stat-card"><span class="stat-icon"><i class="bi bi-car-front"></i></span><b>100,000</b><span>vehicle records in the dataset</span><small>SUPPLIED DATASET</small></article><article class="stat-card"><span class="stat-icon"><i class="bi bi-calendar3"></i></span><b>2018–2026</b><span>model-year coverage</span><small>TIME HORIZON</small></article><article class="stat-card"><span class="stat-icon"><i class="bi bi-buildings"></i></span><b>200</b><span>manufacturers represented</span><small>MARKET BREADTH</small></article><article class="stat-card"><span class="stat-icon"><i class="bi bi-list-columns"></i></span><b>37</b><span>fields available to explore</span><small>DATA DIMENSIONS</small></article></div>
+      <div class="lens-grid"><article class="lens-card"><span class="lens-number">01</span><i class="bi bi-speedometer2"></i><h3>Vehicle performance</h3><p>Compare driving range, power, torque, acceleration, top speed and drivetrain.</p><a href="#dashboard">Explore performance <i class="bi bi-arrow-up-right"></i></a></article><article class="lens-card"><span class="lens-number">02</span><i class="bi bi-battery-charging"></i><h3>Battery &amp; charging</h3><p>Explore battery capacity and chemistry, charging metrics, cycle life and degradation.</p><a href="#dashboard">Explore technology <i class="bi bi-arrow-up-right"></i></a></article><article class="lens-card"><span class="lens-number">03</span><i class="bi bi-wallet2"></i><h3>Cost &amp; ownership</h3><p>Review listed price, insurance, warranty and estimated resale value together.</p><a href="#dashboard">Explore ownership <i class="bi bi-arrow-up-right"></i></a></article><article class="lens-card"><span class="lens-number">04</span><i class="bi bi-globe2"></i><h3>Market &amp; impact</h3><p>Investigate manufacturers, regions, sales, customer ratings and estimated CO₂ savings.</p><a href="#dashboard">Explore the market <i class="bi bi-arrow-up-right"></i></a></article></div>
+    </div></section>
+
+    <section class="dashboard-section section-pad" id="dashboard"><div class="container">
+      <div class="section-heading dashboard-heading"><div><div class="eyebrow eyebrow-dark">INTERACTIVE ANALYTICS</div><h2>EV market performance<br><span>dashboard.</span></h2></div><p>Filter by model year, region or vehicle category. Every chart responds to the same selection so patterns stay easy to compare.</p></div>
+      <div class="filter-bar"><label>MODEL YEAR<select id="yearFilter"><option value="all">All years</option></select></label><label>MARKET REGION<select id="regionFilter"><option value="all">All regions</option></select></label><label>VEHICLE CATEGORY<select id="categoryFilter"><option value="all">All categories</option></select></label><button id="resetFilters" class="reset-btn"><i class="bi bi-arrow-counterclockwise"></i> Reset filters</button><span id="filterStatus" class="filter-status" aria-live="polite">Loading supplied dataset…</span></div>
+      <div class="kpi-grid"><article class="kpi-card"><span>RECORDS IN VIEW</span><b id="kpiRecords">—</b><small><i class="bi bi-database"></i> Filtered vehicle records</small></article><article class="kpi-card"><span>AVG. DRIVING RANGE</span><b id="kpiRange">—</b><small><i class="bi bi-signpost-2"></i> Kilometres per charge</small></article><article class="kpi-card"><span>AVG. LISTED PRICE</span><b id="kpiPrice">—</b><small><i class="bi bi-currency-dollar"></i> USD in supplied data</small></article><article class="kpi-card"><span>EST. CO₂ SAVED / YEAR</span><b id="kpiCo2">—</b><small><i class="bi bi-leaf"></i> Dataset estimate in tonnes</small></article></div>
+      <div class="chart-grid"><article class="chart-card chart-wide"><div class="chart-title"><div><span>01 / SALES TREND</span><h3>Annual EV sales by model year</h3><p>Total recorded annual sales units across model years</p></div><i class="bi bi-three-dots"></i></div><div class="chart-body"><canvas id="yearChart" aria-label="Annual EV sales by model year"></canvas></div></article><article class="chart-card"><div class="chart-title"><div><span>02 / VEHICLE MIX</span><h3>Vehicle mix by category</h3><p>Records across vehicle categories</p></div><i class="bi bi-three-dots"></i></div><div class="chart-body chart-donut"><canvas id="categoryChart" aria-label="Vehicle mix by category"></canvas><div class="donut-center"><b id="donutTotal">—</b><span>vehicles</span></div></div><div id="categoryLegend" class="chart-legend"></div></article><article class="chart-card"><div class="chart-title"><div><span>03 / GEOGRAPHY</span><h3>Sales by market region</h3><p>Regional contribution to recorded sales</p></div><i class="bi bi-three-dots"></i></div><div class="chart-body"><canvas id="regionChart" aria-label="EV sales by market region"></canvas></div></article><article class="chart-card"><div class="chart-title"><div><span>04 / BATTERY</span><h3>Battery technology mix</h3><p>Vehicle records by battery chemistry</p></div><i class="bi bi-three-dots"></i></div><div class="chart-body"><canvas id="batteryChart" aria-label="Battery technology mix"></canvas></div></article><article class="chart-card chart-wide"><div class="chart-title"><div><span>05 / MANUFACTURERS</span><h3>Top manufacturers by annual sales</h3><p>Leading manufacturers in the current selection</p></div><i class="bi bi-three-dots"></i></div><div class="chart-body chart-tall"><canvas id="manufacturerChart" aria-label="Top EV manufacturers by annual sales"></canvas></div></article></div>
+      <p class="dataset-footnote"><i class="bi bi-info-circle"></i> Charts are calculated from the workbook’s embedded extract. Aggregated sales figures sum the supplied <code>annual_sales_units</code> field; figures describe this dataset and are not independently verified market totals.</p>
+    </div></section>
+
+    <section id="story" class="story-section section-pad"><div class="container"><div class="section-heading"><div><div class="eyebrow eyebrow-dark">DATA STORY</div><h2>From broad patterns<br>to <span>better comparisons.</span></h2></div><p>Use the dashboard as a path through the data: narrow the view, compare the trade-offs and interpret the results in context.</p></div><div class="story-grid"><article><span>01 / EXPLORE</span><i class="bi bi-funnel"></i><h3>Filter the vehicle landscape</h3><p>Start with model year, vehicle category or market region to focus the comparison set.</p></article><article><span>02 / COMPARE</span><i class="bi bi-sliders"></i><h3>Balance specs and cost</h3><p>Read range, battery capacity, charging, listed price and ownership metrics together.</p></article><article><span>03 / INTERPRET</span><i class="bi bi-compass"></i><h3>Keep the context in view</h3><p>Use sales, ratings and estimated CO₂ savings as complementary indicators, not as a universal ranking.</p></article></div></div></section>
+
+    <section id="methodology" class="method-section section-pad"><div class="container"><div class="method-top"><div><div class="eyebrow">METHODOLOGY</div><h2>Data, definitions<br>&amp; <em>limitations.</em></h2></div><p>Transparent summaries make better decisions. Here’s what the dashboard includes and how to read it.</p></div><div class="method-grid"><article><span>01</span><h3>Dataset coverage</h3><p>100,000 vehicle records, 37 fields, model years spanning 2018–2026, and 200 manufacturers represented in the supplied extract.</p></article><article><span>02</span><h3>Analysis dimensions</h3><p>Vehicle specifications, battery technology, charging, ownership costs, sales, geography, ratings and estimated environmental impact.</p></article><article><span>03</span><h3>Interpretation</h3><p>Summary figures describe the supplied dataset. They are not independently verified real-world market statistics; sales totals reflect the recorded annual sales field.</p></article></div><div class="source-line"><span><i class="bi bi-shield-check"></i> Values are computed locally in your browser from the supplied EV dataset.</span><a class="workbook-link" href="assets/data/EV_Market_Performance_FINAL_07.twbx" download><i class="bi bi-download"></i> Download the Tableau workbook</a></div></div></section>
+  </main>
+  <footer class="ev-footer"><div class="container footer-row"><a class="brand" href="#home"><span class="brand-icon"><i class="bi bi-lightning-charge-fill"></i></span>EV<span>MarketScope</span></a><p>Electric Vehicle Market Performance &amp; Insights<br><small>Interactive analytics · Powered by the supplied EV dataset</small></p><a href="#home" class="back-top">BACK TO TOP <i class="bi bi-arrow-up-right"></i></a></div><div class="container footer-bottom"><span>© 2026 EVMarketScope</span><span>DATA-LED · BUILT FOR CLARITY</span></div></footer>
+  <script src="assets/data/ev-market-data.js"></script>
+  <script src="assets/js/evmarketscope.js"></script>
+</body>
+</html>
